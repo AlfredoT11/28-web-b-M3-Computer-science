@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2023-09-12T02:20:50.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="4Ku2Cp5od5CTHeT-92cj" version="21.7.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="828" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="EhizVNxVK-_BILBCCZbq-0" value="Hacer un diagrama de flujo para un algoritmo que haga la suma de 2 números y determine si esa suma es mayor a un tercer número." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="30" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="347.5" y="80" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-2" value="Entradas: 3 números enteros a, b, c.&lt;br&gt;Salida: Sí o no." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="70" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-3" value="Leer a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-1" target="EhizVNxVK-_BILBCCZbq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-5" value="Leer b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-6" value="Leer c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-3" target="EhizVNxVK-_BILBCCZbq-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-5" target="EhizVNxVK-_BILBCCZbq-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-9" value="{El usuario debe ingresar los valores. }" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="220" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-10" value="suma = a + b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="332.5" y="340" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-6" target="EhizVNxVK-_BILBCCZbq-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-13" value="suma &amp;gt; c" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-10" target="EhizVNxVK-_BILBCCZbq-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-15" value="&quot;La suma es mayor a C&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-16" value="&quot;La suma es menor que C&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-13" target="EhizVNxVK-_BILBCCZbq-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-20" value="Falso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EhizVNxVK-_BILBCCZbq-17">
+          <mxGeometry x="0.2533" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-13" target="EhizVNxVK-_BILBCCZbq-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-19" value="Verdadero" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EhizVNxVK-_BILBCCZbq-18">
+          <mxGeometry x="0.2133" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-21" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-15" target="EhizVNxVK-_BILBCCZbq-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.475;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EhizVNxVK-_BILBCCZbq-16" target="EhizVNxVK-_BILBCCZbq-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhizVNxVK-_BILBCCZbq-29" value="Desarrollar el análisis y diseño (diagrama de flujo, pseudocódigo, dibujo, texto) para un algoritmo que convierta grados F a grados C &lt;br&gt;y determinar si la temperatura en grados C hace que hierva el agua." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="680" width="730" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
